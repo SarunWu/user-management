@@ -1,0 +1,6 @@
+FILE_MIGRATED = "File has already been migrated"
+FILE_NOT_EXIST = "File doesn't exist"
+MIGRATION_UNCOMPLETED = "Migration is uncompleted"
+MIGRATION_COMPLETED = "Migration is completed"
+FILEPATH_UPLOAD_INCOMPLETE = "File path upload incomplete"
+FILEPATH_UPLOAD_COMPLETE = "File path upload complete"

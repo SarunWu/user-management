@@ -1,0 +1,1 @@
+DATE_OF_BIRTH_FORMAT = "%Y%m%d"
