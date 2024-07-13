@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "user-management"
+version = "0.1.0"
+description = "User management demo"
+authors = ["SarunWu <96522041+SarunWu@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+click = "^8.1.7"
+uvicorn = "^0.30.1"
+alembic = "^1.13.2"
+sqlalchemy = "^2.0.31"
+geoalchemy2 = "^0.15.2"
+asyncpg = "^0.29.0"
+pydantic-extra-types = "^2.9.0"
+path = "^16.14.0"
+pandas = "^2.2.2"
+greenlet = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
