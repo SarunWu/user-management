@@ -10,13 +10,13 @@ Step to setup the project
   `pipx install poetry`
 - init poetry at the parent directory
   `poetry init`
-- Add fastAPI
+- Add fastAPI, database related, and other required packages
   `poetry add fastapi click uvicorn alembic sqlalchemy geoalchemy2 asyncpg`
 
 Local run
-`poetry export --without-hashes -f requirements.txt -o requirements.txt`
-`python3 -m venv venv && . venv/bin/activate`
-`pip install --no-cache-dir --no-deps -r requirements.txt`
+- `poetry export --without-hashes -f requirements.txt -o requirements.txt`
+- `python3 -m venv venv && . venv/bin/activate`
+- `pip install --no-cache-dir --no-deps -r requirements.txt`
 
 ### Docker build
 
